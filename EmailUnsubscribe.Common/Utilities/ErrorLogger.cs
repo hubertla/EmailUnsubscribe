@@ -36,5 +36,10 @@ namespace EmailUnsubscribe.Common.Utilities
                 fi.Delete();
             }
         }
+
+        public static void FilterSpamErrors(ExceptionFilterEventArgs efea)
+        {
+
+        }
     }
 }
